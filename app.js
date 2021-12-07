@@ -25,6 +25,16 @@ img.src = pedigree.image;
 div.append(p,img)
 dogInfoEl.append(div);
 
+
+div.style.fontSize = `${pedigree.age}rem`;
+
+if (pedigree.name === 'dingo'){
+  div.style.backgroundColor= 'red';
+}
+if (pedigree.chipped === 'no'){
+  div.style.transform= 'rotate(10deg)';
+}
+  
 console.log(p)
   //console.log(dogInfo[1].name);
   
