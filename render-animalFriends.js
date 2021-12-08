@@ -44,5 +44,5 @@ friendsDiv.style.fontSize = `${kitten.name.length}.01rem`;
 animalFriendsEl.append(outerDiv, friendsDiv);
 
 return outerDiv;
-return friendsDiv;
+
 }
