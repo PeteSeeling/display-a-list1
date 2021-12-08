@@ -111,3 +111,29 @@ footer {
     }
 
   }
+  #dog-breeds-list{
+      display: flex;
+      border: 1px;
+     
+  }
+  #pedigree{
+      display: flex;
+      margin:10px;
+      padding:10px;
+  }
+  img{
+display: flex;
+margin:10px;
+
+  }
+  #friends{
+      display:flex;
+      width:100%;
+      border-color: skyblue;
+      border-width: 3px;
+     
+  }
+  #outer-div{
+      border-color: skyblue;
+      border-width: 3px;
+  }
