@@ -126,3 +126,14 @@ display: flex;
 margin:10px;
 
   }
+  #friends{
+      display:flex;
+      width:100%;
+      border-color: skyblue;
+      border-width: 3px;
+     
+  }
+  #outer-div{
+      border-color: skyblue;
+      border-width: 3px;
+  }
