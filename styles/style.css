@@ -136,4 +136,24 @@ margin:10px;
   #outer-div{
       border-color: skyblue;
       border-width: 3px;
+      
   }
+
+  #animal-foods{
+      display: flex;
+      flex-direction: row;
+      border: solid 2px;
+      border-color:red;
+      width: 100%;
+
+  }
+  .animalfoods{
+      display: flex;
+      font-size: 1.2rem;
+  }
+  .animalFoodsName{
+      font-size:1.2rem;
+      
+  }
+ 
+
