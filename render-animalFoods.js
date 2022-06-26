@@ -8,11 +8,9 @@ export function renderAnimalFoods(animalFoods){
 
     let favoriteMeal = animalFoods.favoriteMeal[Math.floor(Math.random() * 3)];
     
-
     p.textContent = animalFoods.name;
     img.src = animalFoods.url_image;
  
-
     p.classList.add('animalFoodsName');
     animalFoodsEl.append(p, img, favoriteMeal);
 
@@ -32,9 +30,5 @@ export function renderAnimalFoods(animalFoods){
         p.style.backgroundColor = 'green)';
     }
     
-    
     return div;
-
-
-
 }

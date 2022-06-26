@@ -7,6 +7,7 @@ import { animalFriends } from './array-animalFriends.js';
 import { renderAnimalFriends } from './render-animalFriends.js';
 import { animalFoods } from './array-animalFood.js';
 import { renderAnimalFoods } from './render-animalFoods.js';
+
 const dogBreedsEl = document.getElementById('dog-breeds-list');
 const dogInfoEl = document.getElementById('pedigree');
 const animalFriendsEl = document.getElementById('friends');
@@ -18,7 +19,6 @@ for (let dog of dogBreeds){
 }
 
 for (let pedigree of dogInfo){
-
     const p = renderDogInfo(pedigree);
     dogInfoEl.append(p);
 }
