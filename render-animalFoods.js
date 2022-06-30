@@ -1,5 +1,4 @@
 export function renderAnimalFoods(animalFoods){
-    
     const div = document.createElement('div');
     const animalFoodsEl = document.getElementById('animal-foods');
     const p = document.createElement('p');
@@ -29,6 +28,5 @@ export function renderAnimalFoods(animalFoods){
     if (animalFoods.favoriteMeal === 'cod'){
         p.style.backgroundColor = 'green)';
     }
-    
     return div;
 }
